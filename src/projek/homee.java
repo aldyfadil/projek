@@ -31,8 +31,8 @@ public class homee extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        buttonbelitiket = new javax.swing.JButton();
+        buttonback = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -45,17 +45,17 @@ public class homee extends javax.swing.JFrame {
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\aldi\\Pictures\\Saved Pictures\\download (2).jpg")); // NOI18N
         jLabel1.setText("jLabel1");
 
-        jButton1.setText("Beli Tiket");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        buttonbelitiket.setText("Beli Tiket");
+        buttonbelitiket.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                buttonbelitiketActionPerformed(evt);
             }
         });
 
-        jButton2.setText("Back");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        buttonback.setText("Back");
+        buttonback.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                buttonbackActionPerformed(evt);
             }
         });
 
@@ -69,9 +69,9 @@ public class homee extends javax.swing.JFrame {
                 .addGap(56, 56, 56)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(buttonbelitiket, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(buttonback, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(50, 50, 50)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -85,9 +85,9 @@ public class homee extends javax.swing.JFrame {
                     .addComponent(jLabel4)
                     .addComponent(jLabel1))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 29, Short.MAX_VALUE)
-                .addComponent(jButton1)
+                .addComponent(buttonbelitiket)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton2)
+                .addComponent(buttonback)
                 .addContainerGap())
         );
 
@@ -111,15 +111,20 @@ public class homee extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-        new Tiket().setVisible(true);
-    }//GEN-LAST:event_jButton1ActionPerformed
+    private void buttonbelitiketActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonbelitiketActionPerformed
+        Tiket tik = new Tiket();
+        tik.setVisible(true);
+        tik.setLocationRelativeTo(null);
+        tik.setVisible(false);
+    }//GEN-LAST:event_buttonbelitiketActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void buttonbackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonbackActionPerformed
         // TODO add your handling code here:
-        new baruya().setVisible(true);
-    }//GEN-LAST:event_jButton2ActionPerformed
+        baruya bar = new baruya();
+        bar.setVisible(true);
+        bar.setLocationRelativeTo(null);
+        this.setVisible(false);
+    }//GEN-LAST:event_buttonbackActionPerformed
 
     /**
      * @param args the command line arguments
@@ -157,8 +162,8 @@ public class homee extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    private javax.swing.JButton buttonback;
+    private javax.swing.JButton buttonbelitiket;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel4;
