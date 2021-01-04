@@ -115,7 +115,7 @@ public class homee extends javax.swing.JFrame {
         Tiket tik = new Tiket();
         tik.setVisible(true);
         tik.setLocationRelativeTo(null);
-        tik.setVisible(false);
+        this.setVisible(false);
     }//GEN-LAST:event_buttonbelitiketActionPerformed
 
     private void buttonbackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonbackActionPerformed
