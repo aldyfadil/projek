@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
   </Properties>
@@ -23,9 +40,12 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
+          <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="panel1" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="panel1" max="32767" attributes="0"/>
+                  <Component id="panel2" max="32767" attributes="0"/>
+              </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -36,38 +56,527 @@
               <EmptySpace max="-2" attributes="0"/>
               <Component id="panel1" max="32767" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
+              <Component id="panel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
     <Container class="java.awt.Panel" name="panel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
 
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="152" max="-2" attributes="0"/>
-                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="135" max="32767" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="ButtonD1" max="32767" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabel1" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="ButtonE2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonE3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="ButtonD2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonD3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jPanel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="ButtonA1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="316" max="-2" attributes="0"/>
+                          <Component id="ButtonA6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="ButtonA7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="ButtonA8" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="ButtonC1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonC2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonC3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonC4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                                  <Component id="ButtonC5" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="ButtonA2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonA3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonA4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                                  <Component id="ButtonA5" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="ButtonB1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonB2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonB3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonB4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                                  <Component id="ButtonB5" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="189" pref="189" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="ButtonD4" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="ButtonD5" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="ButtonE4" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="ButtonE5" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="ButtonB6" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonB7" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonB8" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="ButtonC6" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonC7" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonC8" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="ButtonD6" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonD7" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonD8" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="ButtonE6" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonE7" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ButtonE8" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Component id="ButtonE1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="75" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
-                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="156" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ButtonA1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonA2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonA3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonA4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonA5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonA6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonA7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonA8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ButtonB1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonB2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonB3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonB4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonB5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonB6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonB7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonB8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ButtonC1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonC2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonC3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonC4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonC5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonC6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonC7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonC8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ButtonD1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonD2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonD3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonD4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonD5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonD6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonD7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonD8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ButtonE1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonE3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonE2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonE4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonE5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonE6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonE7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButtonE8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="57" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jLabel1" max="32767" attributes="0"/>
+                      <Component id="jPanel2" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
+        <Component class="javax.swing.JButton" name="ButtonA1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A1"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonA1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonA2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A2"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonA2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonA3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonA4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonA5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonA6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonA7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A7"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonA8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A8"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonB1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonB2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonB3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonB4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonB5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonB6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonB7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B7"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonB7ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonB8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B8"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonB8ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonC1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonC2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonC3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonC4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonC5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonC6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonC7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C7"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonC8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C8"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonD1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonD2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonD3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonD4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonD5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonD5ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonD6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonD7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D7"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonD8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D8"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonE1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonE2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonE3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonE4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonE5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonE6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonE7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E7"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButtonE8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E8"/>
+          </Properties>
+        </Component>
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Ini Pilih Bangku YAy"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Kursi"/>
           </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="Labelkursi" min="-2" pref="94" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="10" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="2" max="32767" attributes="0"/>
+                      <Component id="Labelkursi" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="Labelkursi">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="java.awt.Panel" name="panel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="3" green="a2" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="buttonbelitiket" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="buttonback" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="314" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace pref="38" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="buttonback" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="buttonbelitiket" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="buttonbelitiket">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Back"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonbelitiketActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="buttonback">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Home"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonbackActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
