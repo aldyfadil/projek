@@ -87,28 +87,29 @@
                                       <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace min="27" pref="6" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="labelkursiyang" min="-2" pref="141" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="txtuangbayar" min="-2" pref="144" max="-2" attributes="0"/>
-                                      <Component id="txtjumlahbeli" alignment="0" pref="145" max="32767" attributes="0"/>
-                                      <Component id="txttotalbayar" alignment="0" pref="145" max="32767" attributes="0"/>
-                                      <Component id="txtkembalian" alignment="0" min="-2" pref="144" max="-2" attributes="0"/>
-                                      <Component id="txtkursi" alignment="0" max="32767" attributes="0"/>
-                                      <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                                          <Group type="102" alignment="1" attributes="0">
+                                  <Component id="txtjumlahbeli" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txttotalbayar" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtkursi" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtharga" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="combopillihfilm" alignment="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="combopilihjam" alignment="0" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
                                               <Component id="radioregular" min="-2" pref="75" max="-2" attributes="0"/>
                                               <EmptySpace max="32767" attributes="0"/>
-                                              <Component id="radiovip" min="-2" max="-2" attributes="0"/>
+                                              <Component id="radiovip" min="-2" pref="75" max="-2" attributes="0"/>
                                           </Group>
-                                          <Component id="combopilihjam" alignment="1" max="32767" attributes="0"/>
-                                          <Component id="combopillihfilm" alignment="1" pref="0" max="32767" attributes="0"/>
-                                          <Component id="txtharga" alignment="1" pref="142" max="32767" attributes="0"/>
+                                          <Component id="labelkursiyang" min="-2" pref="141" max="-2" attributes="0"/>
+                                          <Component id="txtuangbayar" min="-2" pref="144" max="-2" attributes="0"/>
+                                          <Component id="txtkembalian" alignment="0" min="-2" pref="144" max="-2" attributes="0"/>
+                                          <Component id="labelkelastiket" min="-2" pref="129" max="-2" attributes="0"/>
+                                          <Component id="labelkursiyangdisediakan" alignment="0" min="-2" pref="171" max="-2" attributes="0"/>
                                       </Group>
-                                      <Component id="labelkelastiket" min="-2" pref="129" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                   </Group>
-                                  <Component id="labelkursiyangdisediakan" alignment="0" min="-2" pref="171" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
