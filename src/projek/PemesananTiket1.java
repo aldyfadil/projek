@@ -470,7 +470,7 @@ public class PemesananTiket1 extends javax.swing.JFrame {
 
     private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
         // TODO add your handling code here:
-         Labelkursi1.setText("A1 - A9")
+         Labelkursi1.setText("A1 - A9");
     }//GEN-LAST:event_jRadioButton2ActionPerformed
 
     /**
