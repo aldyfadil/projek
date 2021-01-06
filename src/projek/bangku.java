@@ -106,8 +106,18 @@ public class bangku extends javax.swing.JFrame {
         });
 
         ButtonA3.setText("A3");
+        ButtonA3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ButtonA3ActionPerformed(evt);
+            }
+        });
 
         ButtonA4.setText("A4");
+        ButtonA4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ButtonA4ActionPerformed(evt);
+            }
+        });
 
         ButtonA5.setText("A5");
 
@@ -482,6 +492,16 @@ public class bangku extends javax.swing.JFrame {
         // TODO add your handling code here:
         Labelkursi.setText("  A2");
     }//GEN-LAST:event_ButtonA2ActionPerformed
+
+    private void ButtonA3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonA3ActionPerformed
+        // TODO add your handling code here:
+        Labelkursi.setText("  A3");
+    }//GEN-LAST:event_ButtonA3ActionPerformed
+
+    private void ButtonA4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonA4ActionPerformed
+        // TODO add your handling code here:
+        Labelkursi.setText("  A4");
+    }//GEN-LAST:event_ButtonA4ActionPerformed
 
     /**
      * @param args the command line arguments
