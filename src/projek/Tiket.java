@@ -73,7 +73,6 @@ public class Tiket extends javax.swing.JFrame {
 
         jLabel4.setText("Jenis Tiket");
 
-        buttonGroup2.add(radioregular);
         radioregular.setText("Regular");
         radioregular.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -81,7 +80,6 @@ public class Tiket extends javax.swing.JFrame {
             }
         });
 
-        buttonGroup2.add(radiovip);
         radiovip.setText("VIP");
         radiovip.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
