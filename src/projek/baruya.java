@@ -37,17 +37,24 @@ public class baruya extends javax.swing.JFrame {
         txtpassword = new javax.swing.JPasswordField();
         buttonlogin = new javax.swing.JButton();
         buttoncancel = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        panel1.setBackground(new java.awt.Color(0, 0, 0));
         panel1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         panel1.setForeground(new java.awt.Color(51, 255, 51));
 
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(250, 250, 250));
         jLabel2.setText("Username\n");
 
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(250, 250, 250));
         jLabel3.setText("Password");
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(250, 250, 250));
         jLabel1.setText("WELCOME");
 
         buttonlogin.setText("Login");
@@ -63,6 +70,10 @@ public class baruya extends javax.swing.JFrame {
                 buttoncancelActionPerformed(evt);
             }
         });
+
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(250, 250, 250));
+        jLabel4.setText("USER");
 
         javax.swing.GroupLayout panel1Layout = new javax.swing.GroupLayout(panel1);
         panel1.setLayout(panel1Layout);
@@ -84,20 +95,26 @@ public class baruya extends javax.swing.JFrame {
                             .addGroup(panel1Layout.createSequentialGroup()
                                 .addGap(115, 115, 115)
                                 .addComponent(jLabel1)))
-                        .addGap(0, 87, Short.MAX_VALUE))
+                        .addGap(0, 77, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(buttonlogin, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(buttoncancel, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
+            .addGroup(panel1Layout.createSequentialGroup()
+                .addGap(188, 188, 188)
+                .addComponent(jLabel4)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         panel1Layout.setVerticalGroup(
             panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panel1Layout.createSequentialGroup()
                 .addGap(20, 20, 20)
                 .addComponent(jLabel1)
-                .addGap(43, 43, 43)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel4)
+                .addGap(23, 23, 23)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtusername, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel2))
@@ -105,7 +122,7 @@ public class baruya extends javax.swing.JFrame {
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
                     .addComponent(txtpassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 57, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 52, Short.MAX_VALUE)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(buttonlogin)
                     .addComponent(buttoncancel))
@@ -198,6 +215,7 @@ public class baruya extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private java.awt.Panel panel1;
     private javax.swing.JPasswordField txtpassword;
     private javax.swing.JTextField txtusername;

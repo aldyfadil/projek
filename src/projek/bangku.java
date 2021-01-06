@@ -70,7 +70,7 @@ public class bangku extends javax.swing.JFrame {
         ButtonE7 = new javax.swing.JButton();
         ButtonE8 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
+        txtkursiii = new javax.swing.JTextField();
         panel2 = new java.awt.Panel();
         buttonbelitiket = new javax.swing.JButton();
         buttonback = new javax.swing.JButton();
@@ -209,9 +209,9 @@ public class bangku extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Kursi");
 
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        txtkursiii.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                txtkursiiiActionPerformed(evt);
             }
         });
 
@@ -239,7 +239,7 @@ public class bangku extends javax.swing.JFrame {
                                 .addComponent(ButtonD2)
                                 .addGap(18, 18, 18)
                                 .addComponent(ButtonD3))
-                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(txtkursiii, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(panel1Layout.createSequentialGroup()
                         .addComponent(ButtonA1)
                         .addGap(316, 316, 316)
@@ -374,7 +374,7 @@ public class bangku extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 57, Short.MAX_VALUE)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtkursiii, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
 
@@ -456,42 +456,42 @@ public class bangku extends javax.swing.JFrame {
 
     private void ButtonB7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonB7ActionPerformed
         // TODO add your handling code here:
-        Labelkursi.setText("  B7");
+        txtkursiii.setText("  B7");
     }//GEN-LAST:event_ButtonB7ActionPerformed
 
     private void ButtonB8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonB8ActionPerformed
         // TODO add your handling code here:
-        Labelkursi.setText("  B8");
+        txtkursiii.setText("  B8");
     }//GEN-LAST:event_ButtonB8ActionPerformed
 
     private void ButtonA1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonA1ActionPerformed
         // TODO add your handling code here:
-        Labelkursi.setText("  A1");
+        txtkursiii.setText("  A1");
     }//GEN-LAST:event_ButtonA1ActionPerformed
 
     private void ButtonD5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonD5ActionPerformed
         // TODO add your handling code here:
-        Labelkursi.setText("  D5");
+       txtkursiii.setText("  D5");
     }//GEN-LAST:event_ButtonD5ActionPerformed
 
     private void ButtonA2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonA2ActionPerformed
         // TODO add your handling code here:
-        Labelkursi.setText("  A2");
+        txtkursiii.setText("  A2");
     }//GEN-LAST:event_ButtonA2ActionPerformed
 
     private void ButtonA3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonA3ActionPerformed
         // TODO add your handling code here:
-        Labelkursi.setText("  A3");
+        txtkursiii.setText("  A3");
     }//GEN-LAST:event_ButtonA3ActionPerformed
 
     private void ButtonA4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonA4ActionPerformed
         // TODO add your handling code here:
-        Labelkursi.setText("  A4");
+       txtkursiii.setText("  A4");
     }//GEN-LAST:event_ButtonA4ActionPerformed
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void txtkursiiiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtkursiiiActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_txtkursiiiActionPerformed
 
     /**
      * @param args the command line arguments
@@ -573,8 +573,8 @@ public class bangku extends javax.swing.JFrame {
     private javax.swing.JButton buttonbelitiket;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JTextField jTextField1;
     private java.awt.Panel panel1;
     private java.awt.Panel panel2;
+    private javax.swing.JTextField txtkursiii;
     // End of variables declaration//GEN-END:variables
 }
