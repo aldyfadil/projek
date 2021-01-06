@@ -162,9 +162,19 @@ public class PemesananTiket1 extends javax.swing.JFrame {
 
         buttonGroupjenistiket.add(jRadioButton1);
         jRadioButton1.setText("Reguler");
+        jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton1ActionPerformed(evt);
+            }
+        });
 
         buttonGroupjenistiket.add(jRadioButton2);
         jRadioButton2.setText("VIP");
+        jRadioButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton2ActionPerformed(evt);
+            }
+        });
 
         Labelkursi1.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
 
@@ -451,6 +461,17 @@ public class PemesananTiket1 extends javax.swing.JFrame {
         hm.setLocationRelativeTo(null);
         this.setVisible(false);
     }//GEN-LAST:event_buttonbackActionPerformed
+
+    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
+        // TODO add your handling code here:
+        Labelkursi1.setText("B1 - B9");
+        
+    }//GEN-LAST:event_jRadioButton1ActionPerformed
+
+    private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
+        // TODO add your handling code here:
+         Labelkursi1.setText("A1 - A9")
+    }//GEN-LAST:event_jRadioButton2ActionPerformed
 
     /**
      * @param args the command line arguments
