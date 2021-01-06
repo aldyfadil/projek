@@ -52,30 +52,35 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
+              <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="RadioButtonMenInBlackInternational" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtnama" min="-2" pref="175" max="-2" attributes="0"/>
-                      <Component id="RadioButtonBirdsofprey" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="RadioButtonShazam" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="RadioButtonMileaSuaradariDilan" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="RadioButtonTheSpongeBobMovie" alignment="0" min="-2" max="-2" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="Labelhari" min="-2" pref="97" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="RadioButtonMenInBlackInternational" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtnama" min="-2" pref="175" max="-2" attributes="0"/>
+                              <Component id="RadioButtonBirdsofprey" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="RadioButtonShazam" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="RadioButtonMileaSuaradariDilan" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="RadioButtonTheSpongeBobMovie" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                                  <Component id="Labelhari" min="-2" pref="97" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                                  <Component id="Labeljamtayang" min="-2" pref="97" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
-                          <Component id="Labeljamtayang" min="-2" pref="97" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace pref="256" max="32767" attributes="0"/>
               </Group>
@@ -112,7 +117,9 @@
                       <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
                       <Component id="Labeljamtayang" min="-2" pref="14" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="218" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="190" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -198,6 +205,11 @@
         <Component class="javax.swing.JLabel" name="Labelhari">
         </Component>
         <Component class="javax.swing.JLabel" name="Labeljamtayang">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Seruiz gua gak lihat perubahannya"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>
