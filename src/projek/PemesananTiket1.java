@@ -41,7 +41,13 @@ public class PemesananTiket1 extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         Labelhari = new javax.swing.JLabel();
         Labeljamtayang = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
+        RadioButtonaladdin2019 = new javax.swing.JRadioButton();
+        RadioButtonthenightcomesforus = new javax.swing.JRadioButton();
+        RadioButtonmoneyheist = new javax.swing.JRadioButton();
+        RadioButtonoverthemoon = new javax.swing.JRadioButton();
+        RadioButtonsonicthehedgehog = new javax.swing.JRadioButton();
+        jPanel2 = new javax.swing.JPanel();
+        buttonback = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -95,7 +101,45 @@ public class PemesananTiket1 extends javax.swing.JFrame {
 
         jLabel4.setText("Jam tayang");
 
-        jLabel5.setText("Seruiz gua gak lihat perubahannya");
+        buttonGroupjudulfilm.add(RadioButtonaladdin2019);
+        RadioButtonaladdin2019.setText("Aladdin (2019)");
+        RadioButtonaladdin2019.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                RadioButtonaladdin2019ActionPerformed(evt);
+            }
+        });
+
+        buttonGroupjudulfilm.add(RadioButtonthenightcomesforus);
+        RadioButtonthenightcomesforus.setText("The Night Comes for Us");
+        RadioButtonthenightcomesforus.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                RadioButtonthenightcomesforusActionPerformed(evt);
+            }
+        });
+
+        buttonGroupjudulfilm.add(RadioButtonmoneyheist);
+        RadioButtonmoneyheist.setText("Money Heist: The Phenomenon");
+        RadioButtonmoneyheist.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                RadioButtonmoneyheistActionPerformed(evt);
+            }
+        });
+
+        buttonGroupjudulfilm.add(RadioButtonoverthemoon);
+        RadioButtonoverthemoon.setText("Over The Moon");
+        RadioButtonoverthemoon.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                RadioButtonoverthemoonActionPerformed(evt);
+            }
+        });
+
+        buttonGroupjudulfilm.add(RadioButtonsonicthehedgehog);
+        RadioButtonsonicthehedgehog.setText("Sonic The Hedgehog");
+        RadioButtonsonicthehedgehog.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                RadioButtonsonicthehedgehogActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -104,28 +148,34 @@ public class PemesananTiket1 extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel2))
+                .addGap(57, 57, 57)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtnama, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1)
-                            .addComponent(jLabel2))
-                        .addGap(57, 57, 57)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(RadioButtonMenInBlackInternational)
-                            .addComponent(txtnama, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(RadioButtonBirdsofprey)
                             .addComponent(RadioButtonShazam)
                             .addComponent(RadioButtonMileaSuaradariDilan)
-                            .addComponent(RadioButtonTheSpongeBobMovie)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jLabel3)
-                                .addGap(79, 79, 79)
-                                .addComponent(Labelhari, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jLabel4)
-                                .addGap(42, 42, 42)
-                                .addComponent(Labeljamtayang, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addComponent(jLabel5))
-                .addContainerGap(256, Short.MAX_VALUE))
+                            .addComponent(RadioButtonTheSpongeBobMovie))
+                        .addGap(42, 42, 42)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(RadioButtonoverthemoon, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(RadioButtonaladdin2019, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(RadioButtonthenightcomesforus)
+                            .addComponent(RadioButtonmoneyheist)
+                            .addComponent(RadioButtonsonicthehedgehog, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel3))
+                        .addGap(42, 42, 42)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Labelhari, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Labeljamtayang, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(46, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -137,15 +187,24 @@ public class PemesananTiket1 extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
-                    .addComponent(RadioButtonMenInBlackInternational, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(RadioButtonMenInBlackInternational, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(RadioButtonaladdin2019, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(RadioButtonBirdsofprey, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(RadioButtonBirdsofprey, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(RadioButtonthenightcomesforus, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(RadioButtonShazam, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(RadioButtonShazam, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(RadioButtonmoneyheist, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(RadioButtonMileaSuaradariDilan, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(RadioButtonMileaSuaradariDilan, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(RadioButtonoverthemoon, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(RadioButtonTheSpongeBobMovie, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(RadioButtonTheSpongeBobMovie, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(RadioButtonsonicthehedgehog, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(41, 41, 41)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel3)
@@ -154,9 +213,33 @@ public class PemesananTiket1 extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel4)
                     .addComponent(Labeljamtayang, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(14, 14, 14)
-                .addComponent(jLabel5)
-                .addContainerGap(190, Short.MAX_VALUE))
+                .addContainerGap(126, Short.MAX_VALUE))
+        );
+
+        jPanel2.setBackground(new java.awt.Color(255, 162, 3));
+
+        buttonback.setText("Home");
+        buttonback.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonbackActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(buttonback, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(107, 107, 107))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(32, Short.MAX_VALUE)
+                .addComponent(buttonback)
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -164,12 +247,20 @@ public class PemesananTiket1 extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(44, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         pack();
@@ -181,7 +272,7 @@ public class PemesananTiket1 extends javax.swing.JFrame {
         if(RadioButtonMenInBlackInternational.isSelected()){
             film = RadioButtonMenInBlackInternational.getText();
             Labelhari.setText("Senin");
-            Labeljamtayang.setText("10.00-12.00");
+            Labeljamtayang.setText("10.00 - 12.00");
         }
     }//GEN-LAST:event_RadioButtonMenInBlackInternationalActionPerformed
 
@@ -191,7 +282,7 @@ public class PemesananTiket1 extends javax.swing.JFrame {
         if(RadioButtonBirdsofprey.isSelected()){
             film = RadioButtonBirdsofprey.getText();
             Labelhari.setText("Senin");
-            Labeljamtayang.setText("14.00-16.00");
+            Labeljamtayang.setText("14.00 - 16.00");
         }
     }//GEN-LAST:event_RadioButtonBirdsofpreyActionPerformed
 
@@ -201,7 +292,7 @@ public class PemesananTiket1 extends javax.swing.JFrame {
         if(RadioButtonShazam.isSelected()){
             film = RadioButtonShazam.getText();
             Labelhari.setText("Senin");
-            Labeljamtayang.setText("20.00-22.00");
+            Labeljamtayang.setText("20.00 - 22.00");
         }
         
     }//GEN-LAST:event_RadioButtonShazamActionPerformed
@@ -212,7 +303,7 @@ public class PemesananTiket1 extends javax.swing.JFrame {
         if(RadioButtonMileaSuaradariDilan.isSelected()){
             film = RadioButtonMileaSuaradariDilan.getText();
             Labelhari.setText("Selasa");
-            Labeljamtayang.setText("20.00-22.00");
+            Labeljamtayang.setText("20.00 - 22.00");
         }
     }//GEN-LAST:event_RadioButtonMileaSuaradariDilanActionPerformed
 
@@ -222,9 +313,68 @@ public class PemesananTiket1 extends javax.swing.JFrame {
         if(RadioButtonTheSpongeBobMovie.isSelected()){
             film = RadioButtonTheSpongeBobMovie.getText();
             Labelhari.setText("Selasa");
-            Labeljamtayang.setText("13.00-15.00");
+            Labeljamtayang.setText("13.00 - 15.00");
         }
     }//GEN-LAST:event_RadioButtonTheSpongeBobMovieActionPerformed
+
+    private void RadioButtonaladdin2019ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RadioButtonaladdin2019ActionPerformed
+        // TODO add your handling code here:
+        String film = "";
+        if(RadioButtonaladdin2019.isSelected()){
+            film = RadioButtonaladdin2019.getText();
+            Labelhari.setText("Selasa");
+            Labeljamtayang.setText("10.10 - 12.10");
+        }
+    }//GEN-LAST:event_RadioButtonaladdin2019ActionPerformed
+
+    private void RadioButtonthenightcomesforusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RadioButtonthenightcomesforusActionPerformed
+        // TODO add your handling code here:
+        String film ="";
+        if(RadioButtonthenightcomesforus.isSelected()){
+            film = RadioButtonthenightcomesforus.getText();
+            Labelhari.setText("Rabu");
+            Labeljamtayang.setText("19.30 - 21.30");
+        }
+    }//GEN-LAST:event_RadioButtonthenightcomesforusActionPerformed
+
+    private void RadioButtonmoneyheistActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RadioButtonmoneyheistActionPerformed
+        // TODO add your handling code here:
+        String film ="";
+        if(RadioButtonmoneyheist.isSelected()){
+            film = RadioButtonmoneyheist.getText();
+            Labelhari.setText("Rabu");
+            Labeljamtayang.setText("09.30 - 11.30");
+        }
+        
+    }//GEN-LAST:event_RadioButtonmoneyheistActionPerformed
+
+    private void RadioButtonoverthemoonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RadioButtonoverthemoonActionPerformed
+        // TODO add your handling code here:
+        String film ="";
+        if(RadioButtonoverthemoon.isSelected()){
+            film = RadioButtonoverthemoon.getText();
+            Labelhari.setText("Rabu");
+            Labeljamtayang.setText("14.30 - 16.30");
+        }
+    }//GEN-LAST:event_RadioButtonoverthemoonActionPerformed
+
+    private void RadioButtonsonicthehedgehogActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RadioButtonsonicthehedgehogActionPerformed
+        // TODO add your handling code here:
+        String film ="";
+        if(RadioButtonsonicthehedgehog.isSelected()){
+            film = RadioButtonsonicthehedgehog.getText();
+            Labelhari.setText("Kamis");
+            Labeljamtayang.setText("10.00 - 12.00");
+        }
+    }//GEN-LAST:event_RadioButtonsonicthehedgehogActionPerformed
+
+    private void buttonbackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonbackActionPerformed
+        // TODO add your handling code here:
+        homee hm = new homee();
+        hm.setVisible(true);
+        hm.setLocationRelativeTo(null);
+        this.setVisible(false);
+    }//GEN-LAST:event_buttonbackActionPerformed
 
     /**
      * @param args the command line arguments
@@ -272,13 +422,19 @@ public class PemesananTiket1 extends javax.swing.JFrame {
     private javax.swing.JRadioButton RadioButtonMileaSuaradariDilan;
     private javax.swing.JRadioButton RadioButtonShazam;
     private javax.swing.JRadioButton RadioButtonTheSpongeBobMovie;
+    private javax.swing.JRadioButton RadioButtonaladdin2019;
+    private javax.swing.JRadioButton RadioButtonmoneyheist;
+    private javax.swing.JRadioButton RadioButtonoverthemoon;
+    private javax.swing.JRadioButton RadioButtonsonicthehedgehog;
+    private javax.swing.JRadioButton RadioButtonthenightcomesforus;
     private javax.swing.ButtonGroup buttonGroupjudulfilm;
+    private javax.swing.JButton buttonback;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JTextField txtnama;
     // End of variables declaration//GEN-END:variables
 }
