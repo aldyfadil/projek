@@ -10,12 +10,16 @@ package projek;
  * @author aldi
  */
 public class Projek {
-
+    
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Login lg = new Login();
+        lg.setVisible(true);
+        
     }
     
 }
