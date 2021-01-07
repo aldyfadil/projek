@@ -15,9 +15,10 @@ public class Tiket extends javax.swing.JFrame {
     /**
      * Creates new form Tiket
      */
+   
     public Tiket() {
         initComponents();
-        combopillihfilm.setSelectedIndex(0);
+        combopilihfilm.setSelectedIndex(0);
     }
 
     /**
@@ -32,14 +33,13 @@ public class Tiket extends javax.swing.JFrame {
         buttonGroup2 = new javax.swing.ButtonGroup();
         panel1 = new java.awt.Panel();
         jLabel1 = new javax.swing.JLabel();
-        combopillihfilm = new javax.swing.JComboBox<>();
+        combopilihfilm = new javax.swing.JComboBox<>();
         jLabel3 = new javax.swing.JLabel();
         combopilihjam = new javax.swing.JComboBox<>();
         jLabel4 = new javax.swing.JLabel();
         radioregular = new javax.swing.JRadioButton();
         radiovip = new javax.swing.JRadioButton();
         jLabel5 = new javax.swing.JLabel();
-        txtharga = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
@@ -55,12 +55,13 @@ public class Tiket extends javax.swing.JFrame {
         labelkelastiket = new javax.swing.JLabel();
         labelkursiyang = new javax.swing.JLabel();
         labelkursiyangdisediakan = new javax.swing.JLabel();
+        txtharga = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setText("Judul Film");
 
-        combopillihfilm.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih Film", "Men In Black", "Birds Of Prey", "Shazam", "Milea Suara Dari Dilan", "Spongebob On The Run", "Aladdin", "The Night Come For Us", "Money Heist The Phenomenom", "Over The Moon", "Sonic The Hedgehog" }));
+        combopilihfilm.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih Film", "Men In Black", "Birds Of Prey", "Shazam", "Milea Suara Dari Dilan", "Spongebob On The Run", "Aladdin", "The Night Come For Us", "Money Heist The Phenomenom", "Over The Moon", "Sonic The Hedgehog" }));
 
         jLabel3.setText("Jam Tayang");
 
@@ -88,8 +89,6 @@ public class Tiket extends javax.swing.JFrame {
         });
 
         jLabel5.setText("Harga");
-
-        txtharga.setText("\n");
 
         jLabel6.setText("Jumlah  Beli Tiket");
 
@@ -155,57 +154,58 @@ public class Tiket extends javax.swing.JFrame {
             panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panel1Layout.createSequentialGroup()
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(panel1Layout.createSequentialGroup()
-                            .addContainerGap()
-                            .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel3)
-                                    .addGroup(panel1Layout.createSequentialGroup()
-                                        .addGap(8, 8, 8)
-                                        .addComponent(jLabel5))
-                                    .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING))
-                                .addGroup(panel1Layout.createSequentialGroup()
-                                    .addGap(12, 12, 12)
-                                    .addComponent(jLabel1)))
-                            .addGap(186, 186, 186))
-                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                            .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel8)
-                                    .addComponent(jLabel6)
-                                    .addComponent(jLabel10))
-                                .addGroup(panel1Layout.createSequentialGroup()
-                                    .addGap(26, 26, 26)
-                                    .addComponent(jLabel7))
-                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                                    .addContainerGap()
-                                    .addComponent(jLabel9)))
-                            .addGap(6, 6, 6)
-                            .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(txtjumlahbeli)
-                                .addComponent(txttotalbayar)
-                                .addComponent(txtkursi)
-                                .addComponent(txtharga, javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(combopillihfilm, 0, 1, Short.MAX_VALUE)
-                                .addComponent(combopilihjam, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(panel1Layout.createSequentialGroup()
-                                    .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                        .addGroup(panel1Layout.createSequentialGroup()
-                                            .addComponent(radioregular, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(radiovip, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addComponent(labelkursiyang, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(txtuangbayar, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(txtkembalian, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(labelkelastiket, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(labelkursiyangdisediakan, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGap(0, 0, Short.MAX_VALUE)))))
                     .addGroup(panel1Layout.createSequentialGroup()
                         .addGap(89, 89, 89)
                         .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(buttonsimpan, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(buttonsimpan, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(panel1Layout.createSequentialGroup()
+                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
+                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(jLabel8)
+                                        .addComponent(jLabel6)
+                                        .addComponent(jLabel10))
+                                    .addGroup(panel1Layout.createSequentialGroup()
+                                        .addGap(26, 26, 26)
+                                        .addComponent(jLabel7))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
+                                        .addContainerGap()
+                                        .addComponent(jLabel9)))
+                                .addGap(6, 6, 6))
+                            .addGroup(panel1Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel3)
+                                        .addGroup(panel1Layout.createSequentialGroup()
+                                            .addGap(8, 8, 8)
+                                            .addComponent(jLabel5))
+                                        .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING))
+                                    .addGroup(panel1Layout.createSequentialGroup()
+                                        .addGap(12, 12, 12)
+                                        .addComponent(jLabel1)))
+                                .addGap(20, 20, 20)))
+                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(txtjumlahbeli)
+                            .addComponent(txttotalbayar)
+                            .addComponent(txtkursi)
+                            .addComponent(combopilihfilm, 0, 1, Short.MAX_VALUE)
+                            .addComponent(combopilihjam, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(panel1Layout.createSequentialGroup()
+                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(txtharga, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panel1Layout.createSequentialGroup()
+                                        .addComponent(radioregular, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(radiovip, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(labelkursiyang, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txtuangbayar, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txtkembalian, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(labelkelastiket, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(labelkursiyangdisediakan, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 171, Short.MAX_VALUE))
+                                .addGap(0, 0, Short.MAX_VALUE)))))
                 .addContainerGap(220, Short.MAX_VALUE))
         );
         panel1Layout.setVerticalGroup(
@@ -214,7 +214,7 @@ public class Tiket extends javax.swing.JFrame {
                 .addGap(43, 43, 43)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
-                    .addComponent(combopillihfilm, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(combopilihfilm, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(9, 9, 9)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
@@ -225,10 +225,10 @@ public class Tiket extends javax.swing.JFrame {
                     .addComponent(radioregular)
                     .addComponent(radiovip, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel5)
-                    .addComponent(txtharga, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                    .addComponent(txtharga, javax.swing.GroupLayout.DEFAULT_SIZE, 19, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(labelkelastiket, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(labelkursiyang, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -238,7 +238,7 @@ public class Tiket extends javax.swing.JFrame {
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6)
                     .addComponent(txtjumlahbeli, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel10)
                     .addComponent(txtkursi, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -389,9 +389,27 @@ public class Tiket extends javax.swing.JFrame {
     }//GEN-LAST:event_txtjumlahbeliKeyReleased
 
     private void buttonsimpanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonsimpanActionPerformed
-        // TODO add your handling code here:
+        String jtk = txtjumlahbeli.getText();
+        String krs = txtkursi.getText();
+        String hrg = txtharga.getText();
+        String ttl = txttotalbayar.getText();
+        String byr = txtuangbayar.getText();
+        String kmbl = txtkembalian.getText();
+        String cmb = combopilihfilm.getSelectedItem().toString();
+        String wkt = combopilihjam.getSelectedItem().toString();
+             
+        Konfirpesanan kp = new Konfirpesanan();
+        kp.lbljt.setText(": "+jtk);
+        kp.lblkursi.setText(": "+krs);
+        kp.lblhrga.setText(": "+hrg);
+        kp.lbltotal.setText(": "+ttl);
+        kp.lblbayar.setText(": "+byr);
+        kp.lblkmbl.setText(": "+kmbl);
+        kp.lblflm.setText(": "+cmb);
+        kp.lbljamty.setText(": "+wkt);
+        
         this.setVisible(false); 
-        new bangku().setVisible(true);
+        kp.setVisible(true);
     }//GEN-LAST:event_buttonsimpanActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -440,8 +458,8 @@ public class Tiket extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup2;
     private javax.swing.JButton buttonsimpan;
+    private javax.swing.JComboBox<String> combopilihfilm;
     private javax.swing.JComboBox<String> combopilihjam;
-    private javax.swing.JComboBox<String> combopillihfilm;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -458,7 +476,7 @@ public class Tiket extends javax.swing.JFrame {
     private java.awt.Panel panel1;
     private javax.swing.JRadioButton radioregular;
     private javax.swing.JRadioButton radiovip;
-    private javax.swing.JTextField txtharga;
+    private javax.swing.JLabel txtharga;
     private javax.swing.JTextField txtjumlahbeli;
     private javax.swing.JTextField txtkembalian;
     private javax.swing.JTextField txtkursi;
