@@ -172,7 +172,8 @@ public class Login extends javax.swing.JFrame {
 
         if(txtpassword.getText().equals(Register.password)&&(txtusername.getText().equals(Register.username))){
             this.setVisible(false);
-            new homee().setVisible(true);//jika benar langsung masuk ke menu home
+            homee hom = new homee();
+            hom.setVisible(true);//jika benar langsung masuk ke menu home
         }else{
             javax.swing.JOptionPane.showMessageDialog(null, "username atau password anda salah");
             txtusername.setText("");
