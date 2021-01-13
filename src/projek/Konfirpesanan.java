@@ -5,6 +5,8 @@
  */
 package projek;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author ASUS
@@ -90,6 +92,11 @@ public class Konfirpesanan extends javax.swing.JFrame {
         lblkmbl.setText(" ");
 
         jButton1.setText("Beli Tiket");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -192,6 +199,11 @@ public class Konfirpesanan extends javax.swing.JFrame {
         });
 
         jButton3.setText("Batalkan");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -244,6 +256,25 @@ public class Konfirpesanan extends javax.swing.JFrame {
        new Tiket().setVisible(true);
         
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+       int batalkan = JOptionPane.showConfirmDialog(null, "Kamu ingin membatalkan pesanan kamu", "Konfirmasi Pesanan", JOptionPane.OK_OPTION);
+        if(batalkan==JOptionPane.OK_OPTION){
+            this.setVisible(false);
+            new homee().setVisible(true);
+        }
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+         int answer=JOptionPane.showConfirmDialog(null, "Terimakasih, Anda ingin keluar?", "Konfirmasi", JOptionPane.OK_OPTION);
+        if(answer==JOptionPane.OK_OPTION){
+            dispose();
+        }if(answer==JOptionPane.NO_OPTION){
+            new homee().setVisible(true);
+        }
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
